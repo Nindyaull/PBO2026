@@ -6,6 +6,9 @@ public class Komputer {
     public int ram; // dalam gb
     public int rom; // dalam gb
 
+    public Komputer() {
+    }
+
     public Komputer (String merk, String jenisProcessor, int ram, int rom) {
         this.merk = merk;
         this.jenisProcessor = jenisProcessor;

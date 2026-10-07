@@ -5,6 +5,10 @@ public class Laptop extends Komputer {
     public double berat;
     public boolean touchScreen;
 
+    public Laptop() {
+        super();
+    }
+
     public Laptop(String merk, String jenisProcessor, int ram, int rom, int kapasitasBaterai, double berat, boolean touchScreen) {
         super(merk, jenisProcessor, ram, rom);
         this.kapasitasBaterai = kapasitasBaterai;

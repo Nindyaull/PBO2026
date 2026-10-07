@@ -5,6 +5,10 @@ public class PcDesktop extends Komputer {
     public String jenisPowerSupply;
     public boolean adaRGB;
 
+    public PcDesktop() {
+        super();
+    }
+    
     public PcDesktop(String merk, String jenisProcessor, int ram, int rom, double ukuranMonitor, String jenisPowerSupply, boolean adaRGB) {
         super(merk, jenisProcessor, ram, rom);
         this.ukuranMonitor = ukuranMonitor;
